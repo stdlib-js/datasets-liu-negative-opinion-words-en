@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.words;
+})();
 })();
 </script>
 ```
@@ -116,6 +118,7 @@ var list = words();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-liu-negative-opinion-words-en@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var list = words();
 var len = list.length;
@@ -128,6 +131,7 @@ for ( i = 0; i < 100; i++ ) {
     console.log( list[ idx ] );
 }
 
+})();
 })();
 </script>
 </body>
@@ -252,7 +256,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/datasets/liu-positive-opinion-words-en]: https://github.com/stdlib-js/datasets-liu-positive-opinion-words-en/tree/umd
+[@stdlib/datasets/liu-positive-opinion-words-en]: https://github.com/stdlib-js/datasets-liu-positive-opinion-words-en/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
