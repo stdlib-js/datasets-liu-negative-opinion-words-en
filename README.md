@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-liu-negative-opinion-words-en@deno/mod.js';
+import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-liu-negative-opinion-words-en@v0.1.1-deno/mod.js';
 ```
 
 #### words()
@@ -97,7 +97,7 @@ var list = words();
 ```javascript
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-liu-negative-opinion-words-en@deno/mod.js';
+import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-liu-negative-opinion-words-en@v0.1.1-deno/mod.js';
 
 var list = words();
 var len = list.length;
